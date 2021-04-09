@@ -1,0 +1,8 @@
+com\itc\calc\config\EnvSettings$QAEnv.class
+com\itc\calc\objectmap\ObjectRepos.class
+com\itc\calc\pages\BMIPage.class
+com\itc\calc\utilities\ExcelReader.class
+com\itc\calc\pages\CaloriePage1.class
+com\itc\calc\pages\CaloriePage.class
+com\itc\calc\utilities\PropertyReader.class
+com\itc\calc\config\EnvSettings.class

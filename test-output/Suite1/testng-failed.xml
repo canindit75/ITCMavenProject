@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="none">
+  <test name="Maven Calorie Calculator Suite(failed)" parallel="none">
+    <classes>
+      <class name="com.itc.calc.testcases.CalorieCalculatorDDT_ExcelTestCase">
+        <methods>
+          <include name="EnterCalorieDetails"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.itc.calc.testcases.CalorieCalculatorDDT_ExcelTestCase -->
+      <class name="com.itc.calc.testcases.CalorieCalculatorPageTestCase">
+        <methods>
+          <include name="EnterCalorieDetails"/>
+        </methods>
+      </class> <!-- com.itc.calc.testcases.CalorieCalculatorPageTestCase -->
+      <class name="com.itc.calc.testcases.CaptureScreenshot">
+        <methods>
+          <include name="getScreenshot"/>
+        </methods>
+      </class> <!-- com.itc.calc.testcases.CaptureScreenshot -->
+    </classes>
+  </test> <!-- Maven Calorie Calculator Suite(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

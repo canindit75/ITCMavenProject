@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+  <test name="Maven Calorie Calculator Suite">
+    <classes>
+      <class name="com.itc.calc.testcases.CalorieCalculatorDDT_ExcelTestCase"/>
+      <class name="com.itc.calc.testcases.CalorieCalculatorPageTestCase"/>
+      <class name="com.itc.calc.testcases.CaptureScreenshot"/>
+    </classes>
+  </test>
+</suite>
